@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+   
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light ">
+            <a class="navbar-brand" href="#"><img src="Images/logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+
+        </nav>
+    
+    <!-- End nav -->
+    <!-- Start Carousel -->
+    <div id="carouselExampleControls" class="carousel slide " data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="Images/cp1.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="Images/cp2.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="Images/cp3.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <!-- End Carousel -->
+    <!-- Start about us -->
+    <div class="aboutus mt-5">
+        <h1 class="text-center">About us</h1>
+        <hr class="hr1">
+        <hr class="hr2">
+        <hr class="hr3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 ">
+                    <div class="image  mx-3">
+                        <img src="Images/Chelsea-logo.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+
+                <div class="col-md-7">
+                    <div class="ourMission">
+                        <h2>Our mission</h2>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa ducimus vitae
+                        voluptatem, voluptatum provident, veniam autem qui quam, fugit accusamus vero cumque
+                        veritatis voluptas sequi facilis sapiente suscipit. Sint, itaque.
+                    </div>
+                    <div class="ourMission">
+                        <h2>Our mission</h2>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa ducimus vitae
+                        voluptatem, voluptatum provident, veniam autem qui quam, fugit accusamus vero cumque
+                        veritatis voluptas sequi facilis sapiente suscipit. Sint, itaque.
+                    </div>
+                    <div class="ourMission">
+                        <h2>Our mission</h2>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa ducimus vitae
+                        voluptatem, voluptatum provident, veniam autem qui quam, fugit accusamus vero cumque
+                        veritatis voluptas sequi facilis sapiente suscipit. Sint, itaque.
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Aboutus -->
+    <!-- Start Products -->
+    <div class="products mt-5">
+        <h1 class="text-center"> Our Products</h1>
+        <hr class="hr1">
+        <hr class="hr2">
+        <hr class="hr3">
+
+        <ul class="nav nav-pills mb-3 justify-content-around bg-light" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab"
+                    aria-controls="pills-home" aria-selected="true">Prouduct 1</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab"
+                    aria-controls="pills-profile" aria-selected="false">Product 2</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab"
+                    aria-controls="pills-contact" aria-selected="false">Product 3</a>
+            </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                <div class="container justify-content-around">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="pimages">
+                                <img src="Images/p2.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="pimages">
+                                <img src="Images/P3.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="pimages">
+                                <img src="Images/P4.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="pimages">
+                                <img src="Images/P3.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="pimages">
+                                <img src="Images/p2.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="pimages">
+                                <img src="Images/P4.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                <div class="container justify-content-around">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="pimages">
+                                <img src="Images/P3.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="pimages">
+                                <img src="Images/p2.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="pimages">
+                                <img src="Images/P4.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="pimages">
+                                <img src="Images/P3.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="pimages">
+                                <img src="Images/p2.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="pimages">
+                                <img src="Images/P4.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                <div class="container justify-content-around">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="pimages">
+                                <img src="Images/P3.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="pimages">
+                                <img src="Images/P3.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="pimages">
+                                <img src="Images/P3.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="pimages">
+                                <img src="Images/P3.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="pimages">
+                                <img src="Images/P3.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="pimages">
+                                <img src="Images/P3.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Products -->
+    <!-- Start Contact Us -->
+    <div class="contactUs mt-5">
+        <h1 class="text-center">Contact Us</h1>
+        <hr class="hr1">
+        <hr class="hr2">
+        <hr class="hr3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="formc">
+                        <form>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp">
+
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <div class="form-group form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp">
+
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+
+                </div>
+                <div class="mapImage">
+                    <div class="col-md-6">
+                        <img src="Images/Screenshot 2021-08-20 000224.png" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Contact Us -->
+    <!-- Start Footer -->
+    <div class="footer mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="aboutfooter">
+                        <h1>About</h1>
+                        <p>Scanfcode.com CODE WANTS TO BE SIMPLE is an initiative to help the upcoming programmers with
+                            the code. Scanfcode focuses on providing the most efficient code or snippets as the code
+                            wants to be simple. We will help programmers build up concepts in different programming
+                            languages that include C, C++, Java, HTML, CSS, Bootstrap, JavaScript, PHP, Android, SQL and
+                            Algorithm</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="categories">
+                        <h1>categories</h1>
+                        <ul>
+                            <li><a href="">Java</a></li>
+                            <li><a href="">Kotlin</a></li>
+                            <li><a href="">Python</a></li>
+                            <li><a href="">C</a></li>
+                            <li><a href="">PHP</a></li>
+                            <li><a href="">C#</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="quickLinks">
+                        <h1>Quick Links</h1>
+                        <ul>
+                            <li><a href="">About Us</a></li>
+                            <li><a href="">Contact us</a></li>
+                            <li><a href="">Privcy Policy</a></li>
+                            <li><a href="">Sitemap</a></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
